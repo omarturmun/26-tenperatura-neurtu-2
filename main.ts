@@ -1,7 +1,7 @@
 let tenperatura = 0
 basic.forever(function () {
     tenperatura = input.temperature()
-    basic.showNumber(tenperatura - 6)
+    basic.showNumber(tenperatura - 8)
 })
 basic.forever(function () {
     if (input.temperature() < 17) {
